@@ -9,6 +9,7 @@
   padding: 0 50px;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .navbar > p {
@@ -59,4 +60,13 @@
 
 .navbar__right > .icon:hover {
   border-bottom: 3px solid #ffc107;
+}
+
+@media screen and (max-width: 750px) {
+  .navbar__right > p {
+    display: none;
+  }
+  .navbar > h1 {
+    margin-left: 0;
+  }
 }

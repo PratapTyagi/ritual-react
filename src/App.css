@@ -1,0 +1,9 @@
+.app {
+  color: rgb(20, 43, 111);
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  --main-color: rgb(20, 43, 111);
+}
